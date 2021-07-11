@@ -1,0 +1,52 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background:url('../images/4.jpg') no-repeat center;
+    background-size: cover;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:#fff;
+}
+.layui-main{
+    height: 100%;
+}
+.loginAndregister{
+    width: 400px;
+    height: 310px;
+    background-color: rgba(38,43,54,.9);
+    position: absolute;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+.loginAndregister .layui-form-item{
+    position: relative;
+}
+.loginAndregister .layui-form-item i{
+  position: absolute;
+  top:10px;
+  left: 8px;
+}
+.loginAndregister .layui-form-item input{
+    padding-left: 25px;
+}
+.loginAndregister h1{
+    color: #259dab;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}
+.to-register,.to-login{
+    text-align: right;
+}
+.register-box{
+    display: none;
+}
